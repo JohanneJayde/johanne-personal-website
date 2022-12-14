@@ -810,3 +810,196 @@ img {
     margin-top: 7em;
   }
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    margin: 0 2em 0;
+    letter-spacing: 0.06em;
+    color: #eaffe9;
+    margin-bottom: 1.5em;
+  }
+  #job-description {
+    font-family: "Montserrat";
+    font-style: normal;
+    max-width: 600px;
+    line-height: 140%;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 3em auto 0;
+    text-align: left;
+
+    letter-spacing: 0.06em;
+    color: #3c883a;
+  }
+  .nav-button {
+    padding: 15px 0;
+    width: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 3em auto 2em;
+  }
+  h3 {
+    font-size: 17px;
+    width: 250px;
+    margin-bottom: -3em;
+    margin-left: 2em;
+  }
+  li {
+    font-size: 15px;
+  }
+  .programming-languages {
+    height: 150px;
+    padding: 1.5em 0.25em;
+    margin-top: 5em;
+  }
+  h4 {
+    font-size: 14px;
+    width: 90%;
+    padding-left: 1em;
+  }
+  h5 {
+    width: 90%;
+
+    font-size: 13px;
+    padding-left: 1em;
+  }
+  .activity {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin: 75px auto;
+
+    align-content: center;
+    row-gap: 0em;
+  }
+
+  .activity-title {
+    height: 200px;
+    background: #a3f1a2;
+    border: none;
+    width: 100%;
+    padding: 0.5em 0;
+  }
+
+  .activity-summary {
+    width: 100%;
+    height: 300px;
+    background: #daffd9;
+    margin: 0 auto;
+    justify-self: center;
+    padding-bottom: 2em;
+    border-bottom: solid 5px #a3f1a2;
+    border-left: none;
+    border-right: none;
+  }
+  p {
+    width: 90%;
+    padding: 1em;
+    font-size: 14px;
+  }
+  .activity-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4em;
+    width: 100%;
+  }
+  .activity:hover .activity-summary {
+    width: 100%;
+    height: 300px;
+    background: #daffd9;
+    margin: 0 auto;
+    justify-self: center;
+    scale: 100%;
+  }
+  hr {
+    border: 40px solid #a3f1a2;
+  }
+  .education-title {
+    width: 80%;
+    grid-area: 1 / 1 / span 2 / 1;
+    padding: 1.6em;
+  }
+  a {
+    font-size: 13px;
+  }
+  .education-summary {
+    width: 100%;
+    padding: 1em 1em 3em;
+    height: 250px;
+    background: #daffd9;
+    grid-area: 1 / 1 / 1 / 1;
+    margin-top: 8em;
+   
+    justify-self: center;
+  }
+
+  .education {
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-rows: 100px 250px;
+    grid-template-columns: 100%;
+    align-content: flex-start;
+    border-top: solid 5px #4ace48;
+    border-bottom: solid 5px #4ace48;
+    border-left: none;
+    border-right: none;
+        padding: 0em;
+  }
+  .MEHS {
+    display: flex;
+    height: 200px;
+    padding: 0em;
+  }
+  img {
+    width: 86%;
+    height: auto;
+  }
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3em auto 1em;
+    column-gap: 40px;
+  }
+
+  span {
+    width: 86%;
+    font-size: 14px;
+    margin: 0;
+      font-weight: 600;
+  }
+  .credit {
+    text-align: center;
+  }
+  nav {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  .email{
+    margin-right: 0;
+  }
+}
+
