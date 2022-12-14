@@ -942,7 +942,7 @@ img {
   }
   .education-summary {
     width: 100%;
-    padding: 1em 1em 3em;
+    padding: 1em 0em 3em;
     height: 250px;
     background: #daffd9;
     grid-area: 1 / 1 / 1 / 1;
