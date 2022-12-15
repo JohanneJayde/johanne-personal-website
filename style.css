@@ -557,6 +557,7 @@ img {
 @media (max-width: 900px) {
   body {
     width: 100%;
+    margin: 0;
   }
   h1 {
     font-family: "Montserrat";
@@ -617,9 +618,9 @@ img {
     font-weight: 600;
     font-size: 25px;
     line-height: 110%;
-    /* or 24px */
+    width: 90%;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.07em;
     margin: 3em auto 2em;
   }
   #job-description {
@@ -823,6 +824,8 @@ img {
 
   .email {
     align-self: flex-end;
+    padding: 0;
+
   }
 }
 @media (max-width: 720px) {
@@ -837,7 +840,7 @@ img {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 100%;
     text-align: center;
     margin: 0 2em 0;
@@ -892,11 +895,12 @@ img {
   }
   h4 {
     font-size: 14px;
-    width: 90%;
+    width: 85%;
+    padding: 0 1em 0;
+    margin: 1em;
   }
   h5 {
-    width: 90%;
-
+    width: 85%;
     font-size: 13px;
   }
   .activity {
@@ -906,7 +910,7 @@ img {
     height: 200px;
     margin: 75px auto;
 
-    align-content: center;
+    align-content: flex-start;
     row-gap: 0em;
   }
 
@@ -931,8 +935,8 @@ img {
     border-top: none;
   }
   p {
-    width: 90%;
-    padding: 1em 2em 1em;
+    width: 85%;
+    padding: 1em auto 1em;
     font-size: 14px;
   }
   .activity-container {
@@ -972,10 +976,10 @@ img {
     margin: 0;
     padding: 0;
     border-bottom: solid 3px #a3f1a2;
-
+    padding-bottom: 3em;
   }
   .education-summary p {
-    padding-left: 2em;
+     width: 85%;
   }
   .education {
     display: flex;
@@ -999,7 +1003,7 @@ img {
   }
 
   img {
-    width: 86%;
+    width: 80%;
     height: auto;
   }
   .about-me-container {
@@ -1013,13 +1017,14 @@ img {
   }
 
   span {
-    width: 86%;
+    width: 80%;
     font-size: 14px;
     margin: 0;
     font-weight: 600;
   }
   .credit {
     text-align: center;
+    width: 85%;
   }
   nav {
     width: 100%;
@@ -1030,4 +1035,5 @@ img {
   .email {
     margin-right: 0;
   }
+
 }
