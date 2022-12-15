@@ -199,7 +199,7 @@ hr {
   width: 1123px;
   height: 150px;
   background: #a3f1a2;
-  
+
   grid-area: 1 / 1 / 1 / span 2;
 
   transition-duration: 0.5s;
@@ -274,7 +274,6 @@ p {
   height: 150px;
 
   grid-area: 1 / 1 / 1 / span 2;
-
 }
 
 .education-summary {
@@ -299,14 +298,12 @@ p {
   column-gap: 3em;
 }
 
-.MEHS{
-
+.MEHS {
   border: solid 5px #4ace48;
 
   padding: 1em 0 2em;
   width: 1123px;
   margin: 100px auto;
-
 }
 
 .education p {
@@ -490,17 +487,15 @@ img {
     align-content: center;
     column-gap: 4.5em;
   }
-  .MEHS{
-
-  border-top: solid 5px #4ace48;
-  border-bottom: solid 5px #4ace48;
-  border-right: none;
-  border-left: none;
-  padding: 1em 0 2em;
-  width: 100%;
-  margin: 100px auto;
-
-}
+  .MEHS {
+    border-top: solid 5px #4ace48;
+    border-bottom: solid 5px #4ace48;
+    border-right: none;
+    border-left: none;
+    padding: 1em 0 2em;
+    width: 100%;
+    margin: 100px auto;
+  }
   span {
     font-family: "Montserrat";
     font-style: normal;
@@ -759,24 +754,22 @@ img {
 
     grid-template-rows: 100px 250px;
     grid-template-columns: 1fr;
-        border-top: solid 5px #4ace48;
+    border-top: solid 5px #4ace48;
     border-bottom: solid 5px #4ace48;
     border-left: none;
     border-right: none;
 
     justify-content: center;
   }
-.MEHS{
-
-  border-top: solid 5px #4ace48;
-  border-bottom: solid 5px #4ace48;
-  border-right: none;
-  border-left: none;
-  padding: 1em 0 2em;
-  width: 100%;
-  margin: 100px auto;
-
-}
+  .MEHS {
+    border-top: solid 5px #4ace48;
+    border-bottom: solid 5px #4ace48;
+    border-right: none;
+    border-left: none;
+    padding: 1em 0 2em;
+    width: 100%;
+    margin: 100px auto;
+  }
   img {
     height: 500px;
     border: 5px solid #4ace48;
@@ -935,10 +928,11 @@ img {
     border-bottom: solid 5px #a3f1a2;
     border-left: none;
     border-right: none;
+    border-top: none;
   }
   p {
     width: 90%;
-    padding: 1em;
+    padding: 1em 2em 1em;
     font-size: 14px;
   }
   .activity-container {
@@ -958,43 +952,52 @@ img {
   hr {
     border: 40px solid #a3f1a2;
   }
+
   .education-title {
-    width: 80%;
-    grid-area: 1 / 1 / span 2 / 1;
-    padding: 1.6em;
+    width: 100%;
+    height: 100px;
+    padding: 1em 0 0;
+    background-color: #a3f1a2;
+    
   }
+
   a {
     font-size: 13px;
   }
   .education-summary {
     width: 100%;
-    padding: 1em 0 3em;
-    height: 250px;
+
+    height: 240px;
     background: #daffd9;
-    grid-area: 1 / 1 / 1 / 1;
-    margin-top: 8em;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid 3px #a3f1a2;
 
-    justify-self: center;
   }
-
+  .education-summary p {
+    padding-left: 2em;
+  }
   .education {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
     width: 100%;
     height: 500px;
-    grid-template-rows: 100px 250px;
-    grid-template-columns: 100%;
     align-content: flex-start;
-    border-top: solid 5px #4ace48;
-    border-bottom: solid 5px #4ace48;
-    border-left: none;
-    border-right: none;
+    border: none;
     padding: 0em;
+    margin-top: 2em;
   }
   .MEHS {
     display: flex;
     height: 200px;
-    padding: 0em;
+    border: none;
   }
+
+  .MEHS .education-title {
+    padding-bottom: 1em;
+  }
+
   img {
     width: 86%;
     height: auto;
